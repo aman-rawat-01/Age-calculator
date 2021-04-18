@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculate your Age</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h2>Find out your Age</h2>
+      <div>
+        <label for="">Enter your DOB:</label>
+        <input class="birth-input" id="dob" placeholder="month/date/year" />
+      </div>
+      <div class="container">
+        <div>
+          <button class="btn btn-primary" onclick="age()">Check</button>
+        </div>
+
+        <div>
+          <button class="btn btn-danger" onclick="reset()">Reset</button>
+        </div>
+      </div>
+
+      <div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

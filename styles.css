@@ -1,0 +1,62 @@
+body {
+
+  background-color: rgb(103, 66, 124);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(247, 240, 240);
+  background-color: rgba(194, 190, 199, 0.418);
+  color: aliceblue;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 1rem;
+}
+
+#result {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.birth-input {
+  width: 35%;
+  height: 1.5rem;
+  border-radius: 0.35rem;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: rgb(35, 144, 245);
+  color: #fff;
+  margin-right: 2.5rem;
+}
+
+.btn-danger {
+  background-color: rgb(219, 41, 41);
+  color: #fff;
+  margin-left: 2.5rem;
+}
+
+.btn-primary:hover {
+  color: rgb(35, 144, 245);
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.btn-danger:hover {
+  color: rgb(219, 41, 41);
+  background-color: rgba(255, 255, 255, 0.89);
+}
